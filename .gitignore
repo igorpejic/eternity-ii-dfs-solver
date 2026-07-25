@@ -1,0 +1,11 @@
+# build outputs
+bw
+bw_eg
+*.o
+*.profraw
+*.profdata
+
+# run outputs
+replay*/
+campaign_*/
+__pycache__/

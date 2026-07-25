@@ -1,0 +1,15 @@
+# Eternity II known hint/clue pieces (the "5 hints" constrained puzzle)
+# Verified against https://e2.bucas.name/ Clues board + community forum (post #10084).
+# Columns: pieceID  row  col  orientation
+#   pieceID     : 1-based, matches line number in 256pieces.txt (code index = pieceID-1)
+#   row, col    : 0-indexed board position (row 0 = top, col 0 = left)
+#   orientation : number of 90-deg CLOCKWISE rotations from the file's canonical
+#                 orientation == the `orientation` arg of rotate_piece_b()
+# Cross-check: applying (rotation) to each canonical piece reproduces the bucas
+# placed edges under one global color permutation (colors are relabeled between
+# this file and bucas, which is irrelevant to edge-matching). All 5 consistent.
+139 8 7 2
+181 13 2 3
+208 2 2 3
+249 13 13 0
+255 2 13 3

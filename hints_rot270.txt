@@ -1,0 +1,7 @@
+# Five official clues after rotating the complete instance 270 degrees clockwise.
+# A found board must be rotated 90 degrees clockwise to restore official coordinates.
+139 8 8 1
+181 13 13 2
+208 13 2 2
+249 2 13 3
+255 2 2 2
